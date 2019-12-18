@@ -1,0 +1,100 @@
+body{
+font-family: urbane, sans-serif;
+font-style: normal;
+font-weight: 100;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid;
+    background-color: grey;
+
+}
+.Banner-hero{
+    width: 1200px;
+    height: 475px;
+    background-color: grey;
+    margin: auto;
+    background-image: url(stylo1.jpg);
+    
+}
+.Products{
+    display: flex;
+    width: 1200px;
+    height: 475px;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-start;
+}
+.Products h1{
+    font-size: 70px;
+    color: white;
+}
+.grid{
+    height: 219px;
+    width: 1200px;
+    margin: auto;
+    background-color: sandybrown;
+    text-align: center;
+}
+.footer
+{
+    height: 200px;
+    width: 1200px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-between;
+    color: white;
+}
+.header{
+    display: flex;
+}
+.logo{
+    width: 300px;
+    height:100px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.nav{
+    width: 900px;
+    height: 100px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-between;
+
+}
+.nav ul{ 
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.footer ul{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    color: white;
+
+}
